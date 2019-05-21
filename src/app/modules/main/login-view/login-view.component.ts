@@ -19,8 +19,9 @@ export class LoginViewComponent extends NarikComponent implements OnInit {
     userName: ""
   };
   onNavigationg = false;
+  submitted = false;
   returnUrl = "";
-  private _isBusy: boolean ;
+  private _isBusy: boolean;
   set isBusy(value: boolean) {
     this._isBusy = value;
   }
@@ -50,6 +51,7 @@ export class LoginViewComponent extends NarikComponent implements OnInit {
     this.returnUrl = this.route.snapshot.queryParams["returnUrl"];
   }
   login() {
+    this.submitted = true;
     if (!this.loginModel.userName || !this.loginModel.password) {
       this.dialogService.error("errors.invalid_form");
     } else {

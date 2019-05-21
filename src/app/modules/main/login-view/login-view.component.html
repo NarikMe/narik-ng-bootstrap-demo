@@ -8,12 +8,12 @@
         {{ "login.title" | translate }}
       </span>
       <div>
-        <form>
+        <form [ngClass]="{'was-validated': submitted}">
           <div>
-            <narik-input icon="user" [auto-focus] prefixIcon="account_box" [placeHolder]="'login.userName_placeHolder' | translate"
+            <narik-input [required]="true" icon="user" [auto-focus] prefixIcon="account_box" [placeHolder]="'login.userName_placeHolder' | translate"
               [(ngModel)]="loginModel.userName" name="name" [label]="'login.userName' | translate" type="text">
             </narik-input>
-            <narik-input  icon="lock"  (keyup.enter)="login()" prefixIcon="lock"
+            <narik-input  [required]="true" icon="lock"  (keyup.enter)="login()" prefixIcon="lock"
               [placeHolder]="'login.password_placeHolder' | translate" [(ngModel)]="loginModel.password" name="password"
               [label]="'login.password' | translate" type="password">
             </narik-input>

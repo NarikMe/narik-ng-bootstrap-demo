@@ -308,7 +308,7 @@
               "dataKey": "customer",
               "dataProviderKey": "remote"
             },
-            "fieldType": "table-select",
+            "fieldType": "select",
             "options": {
               "fields": [
                 {
@@ -500,6 +500,17 @@
             "name": "lastName",
             "required": true,
             "fieldType": "text"
+          },
+          {
+            "name": "custId",
+            "title": "customer",
+            "required": true,
+            "showInList": false,
+            "dataInfo": {
+              "dataKey": "customer",
+              "dataProviderKey": "remote"
+            },
+            "fieldType": "select"
           }
         ],
         "defaultEntity": {}
