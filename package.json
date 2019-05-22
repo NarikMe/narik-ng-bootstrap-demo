@@ -43,7 +43,7 @@
     "narik-jwt-authentication": "^1.0.0",
     "narik-ui-core": "^1.0.3",
     "narik-ui-ng-bootstrap": "^1.0.2",
-    "narik-ui-swimlane": "^1.0.0",
+    "narik-ui-swimlane": "^1.0.1",
     "nebular-icons": "^1.1.0",
     "ngforage": "^4.0.2",
     "ngx-toastr": "^9.1.1",
