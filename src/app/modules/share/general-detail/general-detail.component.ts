@@ -3,7 +3,6 @@ import { NarikUiDetailForm } from "narik-ui-ng-bootstrap";
 
 import { Component, Injector } from "@angular/core";
 
-// @NarikDetailUi()
 @NarikBaseTemplate("NarikDetailUi")
 @Component({
   templateUrl: "general-detail.component.html"
