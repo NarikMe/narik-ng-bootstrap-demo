@@ -37,6 +37,8 @@
             "styles": [
               "node_modules/bootstrap/dist/css/bootstrap.css",
               "node_modules/@fortawesome/fontawesome-free/css/all.min.css",
+              "node_modules/roboto-fontface/css/roboto/roboto-fontface.css",
+              "node_modules/typeface-exo/index.css",
               "node_modules/ngx-toastr/toastr.css",
               "node_modules/narik-ui-ng-bootstrap/styles/narik-ui-ng-bootstrap.css",
               "node_modules/narik-ui-swimlane/styles/narik-ui-swimlane.css",
