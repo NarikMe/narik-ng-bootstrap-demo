@@ -2,6 +2,9 @@
 
 A demo for [**Narik**](http://narik.me "Narik Angular Framework") with [Ng Bootstrap](https://ng-bootstrap.github.io)
 
+
+[Online Demo](http://narik.me/demo/app-ng-bootstrap)
+
 ## Running the demo
 
 First of all copy repo to local machine .
