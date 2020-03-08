@@ -7,7 +7,7 @@ import {
   FormViewRoute,
   NarikAppCoreModule,
   ModuleLoadCompletelyGuard
-} from "narik-app-core";
+} from "@narik/app-core";
 import { CommonModule } from "@angular/common";
 import { ShareModule } from "../share/share.module";
 import { FormsModule } from "@angular/forms";
@@ -18,14 +18,14 @@ import {
   ModuleInfo,
   AuthenticationService,
   DialogService
-} from "narik-infrastructure";
-import { NarikModule } from "narik-core";
+} from "@narik/infrastructure";
+import { NarikModule } from "@narik/core";
 import { Observable } from "rxjs/internal/Observable";
 import { NbMenuService } from "@nebular/theme";
 import { filter } from "rxjs/internal/operators/filter";
 import { map } from "rxjs/internal/operators/map";
 import { ChangePassComponent } from "../main/change-password/change-password.component";
-import { NarikUiNgBootstrapModule } from "narik-ui-ng-bootstrap";
+import { NarikUiNgBootstrapModule } from "@narik/ui-ng-bootstrap";
 
 const moduleKey = "admin";
 const routes: Routes = [

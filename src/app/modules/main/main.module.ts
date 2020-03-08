@@ -1,4 +1,4 @@
-import { NarikCommonModule } from "narik-common";
+import { NarikCommonModule } from "@narik/common";
 
 import { CommonModule } from "@angular/common";
 import { NgModule } from "@angular/core";
@@ -10,7 +10,7 @@ import {
   NarikNgbBusyIndicatorModule,
   NarikNgbButtonModule,
   NarikNgbInputModule
-} from "narik-ui-ng-bootstrap";
+} from "@narik/ui-ng-bootstrap";
 
 import { ChangePassComponent } from "./change-password/change-password.component";
 import { COMPONENTS } from "./index";
